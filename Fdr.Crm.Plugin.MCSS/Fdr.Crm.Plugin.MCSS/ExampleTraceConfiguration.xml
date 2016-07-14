@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<exampleconfigurations>
+  <!--
+    Example TraceSettings configurations
+    
+    The plugin configuration can be added during registration to the unsecure configuration of the plugin step.
+    The configuration is expected to be XML since the configuration is obtained by deserializing the
+    PluginTraceConfiguration object with a XmlSerializer object.  The XPath used to retrieve the configuration
+    object from the XML configuration is "/*/TraceSettings" (see the PluginBase constructors) and therefore the
+    <TraceSettings> node must be a direct child of the XML document's root node.  Examples of XML that will
+    deserialize correctly are shown below.  For a list of valid <TraceLevel> values see the PluginTraceLevel
+    enumeration, any valid enumeration value (specified by the string not the integer) will be valid.
+    -->
+
+  <!--
+    Example 1: Log to event log and tracing service for all users at Verbose level.
+               A good setting for debugging purposes.
+    -->
+  <root>
+    <TraceSettings>
+      <Enabled>true</Enabled>
+      <TraceContext>true</TraceContext>
+      <TraceInputParameters>true</TraceInputParameters>
+      <TraceLevel>Verbose</TraceLevel>
+      <TraceOutputParameters>true</TraceOutputParameters>
+      <TracePreEntityImages>true</TracePreEntityImages>
+      <TracePostEntityImages>true</TracePostEntityImages>
+      <TraceSharedVariables>true</TraceSharedVariables>
+      <TraceToEventLog>true</TraceToEventLog>
+      <TraceToTracingService>true</TraceToTracingService>
+      <TraceToAnnotation>true</TraceToAnnotation>
+    </TraceSettings>
+  </root>
+
+  <!--
+    Example 2: Log to tracing service at the exception level for all users.
+               A good setting for a released plugin in an Online deployment.
+    -->
+  <root>
+    <TraceSettings>
+      <Enabled>true</Enabled>
+      <TraceContext>true</TraceContext>
+      <TraceInputParameters>true</TraceInputParameters>
+      <TraceLevel>Verbose</TraceLevel>
+      <TraceOutputParameters>true</TraceOutputParameters>
+      <TracePreEntityImages>true</TracePreEntityImages>
+      <TracePostEntityImages>true</TracePostEntityImages>
+      <TraceSharedVariables>true</TraceSharedVariables>
+      <TraceToEventLog>false</TraceToEventLog>
+      <TraceToTracingService>true</TraceToTracingService>
+      <TraceToAnnotation>false</TraceToAnnotation>
+    </TraceSettings>
+  </root>
+
+  <!--
+    Example 3: Log to tracing service and event log at the exception level for all users.
+               A good setting for a released plugin in an non Online deployments.
+    -->
+  <root>
+    <TraceSettings>
+      <Enabled>true</Enabled>
+      <TraceContext>true</TraceContext>
+      <TraceInputParameters>true</TraceInputParameters>
+      <TraceLevel>Verbose</TraceLevel>
+      <TraceOutputParameters>true</TraceOutputParameters>
+      <TracePreEntityImages>true</TracePreEntityImages>
+      <TracePostEntityImages>true</TracePostEntityImages>
+      <TraceSharedVariables>true</TraceSharedVariables>
+      <TraceToEventLog>true</TraceToEventLog>
+      <TraceToTracingService>true</TraceToTracingService>
+      <TraceToAnnotation>false</TraceToAnnotation>
+    </TraceSettings>
+  </root>
+
+  <!--
+    Example 4: Log to entity, tracing service, and log entity for specific user's at the Verbose level.        
+               In order to log to the log entity it must be created in the CRM environment.
+    -->
+  <root>
+    <TraceSettings>
+      <Enabled>true</Enabled>
+      <TraceContext>true</TraceContext>
+      <TraceInputParameters>true</TraceInputParameters>
+      <TraceLevel>Verbose</TraceLevel>
+      <TraceOutputParameters>true</TraceOutputParameters>
+      <TracePreEntityImages>true</TracePreEntityImages>
+      <TracePostEntityImages>true</TracePostEntityImages>
+      <TraceSharedVariables>true</TraceSharedVariables>
+      <TraceToEventLog>true</TraceToEventLog>
+      <TraceToTracingService>true</TraceToTracingService>
+      <TraceToAnnotation>false</TraceToAnnotation>
+    </TraceSettings>
+  </root>
+
+  <!--        
+    Custom Configuration Settings Section Example #1
+    
+    Custom configuration settings can be specified in the unsecure and secure configuration by adding a <settings>
+    node to the XML it contains. Any attributes of the <settings> node will be deserialized along with their values
+    and they can be accessed from the configuration manager by using the SecureConfig or UnsecureConfig properties
+    of the PluginConfigurationManager object.  The <settings> node must be a direct child of the document's root 
+    node as the XPath used to find the element is "/*/settings".
+    
+    Example of accessing custom settings using the XML in the example:
+                    
+    string mystring = Context.ConfigManager.UnsecureConfig.GetItemConvertedAs<string>("mycustomstring", "default string");
+    int myint = Context.ConfigManager.UnsecureConfig.GetItemConvertedAs<int>("mycustomint", 0);
+    bool mybool = Context.ConfigManager.UnsecureConfig.GetItemConvertedAs<bool>("mycustombool", false);
+    -->
+
+  <root>
+    <settings
+			mycustomstring="Hello World!"
+			mycustombool="true"
+			mycustomint="1"
+			/>
+
+    <TraceSettings>
+      <Enabled>true</Enabled>
+      <TraceContext>true</TraceContext>
+      <TraceInputParameters>true</TraceInputParameters>
+      <TraceLevel>Exception</TraceLevel>
+      <TraceOutputParameters>true</TraceOutputParameters>
+      <TracePreEntityImages>true</TracePreEntityImages>
+      <TracePostEntityImages>true</TracePostEntityImages>
+      <TraceSharedVariables>true</TraceSharedVariables>
+      <TraceToEventLog>true</TraceToEventLog>
+      <TraceToAnnotation>false</TraceToAnnotation>
+    </TraceSettings>
+
+  </root>
+
+  <!--
+    Custom Configuration Settings Example #2
+                    
+    Custom configuration sections can be deserialized using the PluginConfigurationManager's GetSecureConfigObject
+    or GetUnsecureConfigObject methods.  The methods use the XmlSerializer object to deserialize the object from 
+    the corresponding configuration. See the examples below.
+                    
+    Example Custom Class:
+                    
+    public class MyConfigurationClass {
+        public string MyString { get; set; }
+        public int MyInt { get; set; }
+        public double MyDouble { get; set; }
+        public bool MyBool { get; set; }
+    }
+    
+    Example of retrieving custom object from configuration:
+    
+    MyConfigurationClass myconfig = Context.ConfigManager.GetUnsecureConfigObject("/*/SpecialConfiguration", typeof(MyConfigurationClass))as MyConfigurationClass;
+    MyConfigurationClass myconfig = Context.ConfigManager.GetSecureConfigObject("/*/SpecialConfiguration", typeof(MyConfigurationClass)) as MyConfigurationClass;
+    -->
+  <root>
+    <settings
+			mycustomstring="Hello World!"
+            mycustombool="true"
+            mycustomint="1"
+			/>
+
+    <TraceSettings>
+      <Enabled>true</Enabled>
+      <TraceContext>true</TraceContext>
+      <TraceInputParameters>true</TraceInputParameters>
+      <TraceLevel>Exception</TraceLevel>
+      <TraceOutputParameters>true</TraceOutputParameters>
+      <TracePreEntityImages>true</TracePreEntityImages>
+      <TracePostEntityImages>true</TracePostEntityImages>
+      <TraceSharedVariables>true</TraceSharedVariables>
+      <TraceToEventLog>true</TraceToEventLog>
+      <TraceToAnnotation>false</TraceToAnnotation>
+    </TraceSettings>
+    <SpecialConfiguration>
+      <MyString>Hello World!</MyString>
+      <MyInt>2147483647</MyInt>
+      <MyDouble>3.14159</MyDouble>
+      <MyBool>false</MyBool>
+    </SpecialConfiguration>
+  </root>
+</exampleconfigurations>
+

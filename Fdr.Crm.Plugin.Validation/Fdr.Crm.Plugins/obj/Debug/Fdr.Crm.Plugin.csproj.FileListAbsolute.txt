@@ -1,0 +1,28 @@
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\obj\Debug\Fdr.Crm.Plugin.csprojResolveAssemblyReference.cache
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Crm.Plugin.Project1.dll
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Crm.Plugin.Project1.pdb
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Core.dll
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Plugin.dll
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.IdentityModel.dll
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Core.pdb
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Plugin.pdb
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\obj\Debug\Hsl.Crm.Plugin.Project1.dll
+C:\Users\v404ht8\Documents\Visual Studio 2013\Projects\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\obj\Debug\Hsl.Crm.Plugin.Project1.pdb
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Crm.Plugin.Project1.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Crm.Plugin.Project1.pdb
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Core.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Plugin.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.IdentityModel.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Core.pdb
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Plugin.pdb
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\obj\Debug\Fdr.Crm.Plugin.csprojResolveAssemblyReference.cache
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\obj\Debug\Hsl.Crm.Plugin.Project1.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\obj\Debug\Hsl.Crm.Plugin.Project1.pdb

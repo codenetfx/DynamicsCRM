@@ -1,0 +1,14 @@
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Stifel.Crm.Plugins.dll
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Stifel.Crm.Plugins.pdb
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Hsl.Xrm.Sdk.Core.dll
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Hsl.Xrm.Sdk.Plugin.dll
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Microsoft.IdentityModel.dll
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Hsl.Xrm.Sdk.Core.pdb
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Hsl.Xrm.Sdk.Plugin.pdb
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\obj\Debug\Stifel.Crm.Plugins.dll
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\obj\Debug\Stifel.Crm.Plugins.pdb
+C:\Development\VisualStudio\Stifel.Crm.Plugin.AccountCoverage\Stifel.Crm.Plugin.AccountCoverage\obj\Debug\Stifel.Crm.Plugins.csprojResolveAssemblyReference.cache

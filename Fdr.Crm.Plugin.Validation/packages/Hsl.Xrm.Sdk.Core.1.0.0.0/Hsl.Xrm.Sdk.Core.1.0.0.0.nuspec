@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Hsl.Xrm.Sdk.Core</id>
+    <version>1.0.0.0</version>
+    <title>Hsl.Xrm.Sdk.Core</title>
+    <authors>Hitachi Solutions America,  Ltd.</authors>
+    <owners>Hitachi Solutions America,  Ltd.</owners>
+    <licenseUrl>http://us.hitachi-solutions.com/</licenseUrl>
+    <projectUrl>http://us.hitachi-solutions.com/</projectUrl>
+    <iconUrl>http://us.hitachi-solutions.com/</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Hitachi Solutions - XRM SDK - Core</description>
+    <releaseNotes />
+    <copyright>Copyright © Hitachi Solutions America, Ltd. 2015</copyright>
+    <tags>dynamics crm xrm hitachi sdk core</tags>
+    <dependencies>
+      <dependency id="Microsoft.CrmSdk.CoreAssemblies" version="6.1.1" />
+    </dependencies>
+  </metadata>
+</package>

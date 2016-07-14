@@ -1,0 +1,13 @@
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Fdr.Crm.Plugin.Validation.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Fdr.Crm.Plugin.Validation.pdb
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Core.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Plugin.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.IdentityModel.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Core.pdb
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Hsl.Xrm.Sdk.Plugin.pdb
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\obj\Debug\Fdr.Crm.Plugin.Validation.dll
+C:\Development\Fdr.Crm.Plugin.Validation\Fdr.Crm.Plugins\obj\Debug\Fdr.Crm.Plugin.Validation.pdb

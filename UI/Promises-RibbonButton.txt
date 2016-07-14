@@ -1,0 +1,95 @@
+// JavaScript source code
+
+
+var fdr = window.fdr || {};
+fdr.oppsRibbon = fdr.oppsRibbon || {};
+
+(function () {
+
+	var that = fdr.oppsRibbon;
+
+	that.cfg = {};
+	that.cfg.cmdXref = {
+		"fdr.account.grid.createOpps.createPcCultivation.Button": {
+			actionName: "fdr_pccultopp",
+			oppType: "P&C Cultivation",
+			LogicalName: "account"
+		},
+		"fdr.account.grid.createOpps.createGroupCultivationLarge.Button": {
+			actionName: "fdr_GroupCultivationLargeOpportunity",
+			oppType: "Group Cultivation-Large",
+			LogicalName: "account"
+		},
+		"fdr.account.grid.createOpps.createGroupCultivationSmall.Button": {
+			actionName: "fdr_CreateGroupCultivationSmallOpportunity",
+			oppType: "Group Cultivation-Small",
+			LogicalName: "account"
+		},
+		"fdr.contact.grid.createOpps.createLifeDICultivation.Button": {
+			actionName: "fdr_CreateLifeDICultivationOpportunity",
+			oppType: "Life/DI Cultivation",
+			LogicalName: "contact"
+		},
+		"fdr.contact.grid.createOpps.createAttorneyVisit.Button": {
+			actionName: "fdr_CreateAttorneyVisitOpportunity",
+			oppType: "Attorney Visit",
+			LogicalName: "contact"
+		}
+	};
+
+
+
+	that.createActionCall = function _createActionCall(selectedId, actionInfo) {
+
+		var req,
+		promise;
+
+		// Build request to action call for opportunity.
+		req = Hsl.organizationRequest(actionInfo.actionName);
+		req.setEntityReference("Target", {
+			Id: selectedId,
+			LogicalName: actionInfo.LogicalName
+		});
+		req.setString("Year", actionInfo.year); // I think this should just be the current year as a string
+		req.setString("OpportunityType", actionInfo.oppType); // note: this is from the xref table and needs to match the opp type
+
+
+		promise = Hsl.OrgService.execute(req);
+		return promise;
+	};
+
+	that.callCreateOppsAction = function _callCreateOppsAction(selectedIds, cmdProps) {
+
+		var actionInfo,
+            cmdName,
+            promise,
+            dlg;
+
+		// Get the action information based on the source control id of the button clicked.
+		cmdName = cmdProps.SourceControlId.match(/(?=[^|]*$)[^$]+$/).toString();
+		actionInfo = that.cfg.cmdXref[cmdName];
+
+		if (!actionInfo) {
+			//Hsl.Dialog.alert("Invalid options for the specified command");
+		}		
+		actionInfo.year = new Date().getFullYear().toString();
+
+		// Show a dialog and process each action
+		dlg = Hsl.Dialog.openBusy();
+		promise = Hsl.$.when({});
+		selectedIds = selectedIds || [];
+		selectedIds.forEach(function (id) {
+			promise = promise.then(function () {
+				return that.createActionCall(id, actionInfo);
+			});
+		});
+		promise.
+            fail(Hsl.Dialog.showSoapError).
+            done(function () {
+            	Hsl.Dialog.alert("All Opportunities Successfully Created.");
+            }).
+			always(function () {
+				dlg.close();
+			})
+	};
+}());

@@ -1,0 +1,17 @@
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Fdr.Crm.Plugin.ContextLinks.dll
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Fdr.Crm.Plugin.ContextLinks.pdb
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Hsl.Xrm.Sdk.Core.dll
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Hsl.Xrm.Sdk.Plugin.dll
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Hsl.Xrm.Sdk.Plugin.Service.dll
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Newtonsoft.Json.dll
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Hsl.Xrm.Sdk.Core.pdb
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Hsl.Xrm.Sdk.Plugin.pdb
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Hsl.Xrm.Sdk.Plugin.Service.pdb
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\bin\Debug\Newtonsoft.Json.xml
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\obj\Debug\Fdr.Crm.Plugin.ContextLinks.csprojResolveAssemblyReference.cache
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\obj\Debug\Fdr.Crm.Plugin.ContextLinks.dll
+C:\Development\VisualStudio\Fdr.Crm.Plugin.ContextLinks\Fdr.Crm.Plugin.ContextLinks\obj\Debug\Fdr.Crm.Plugin.ContextLinks.pdb

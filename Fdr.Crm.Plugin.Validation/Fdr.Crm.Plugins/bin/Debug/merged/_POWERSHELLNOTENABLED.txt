@@ -1,0 +1,1 @@
+If the build.ps1 script fails during the build process verify that you have executed "Set-ExecutionPolicy unrestricted" in both the 32 bit and 64 bit version of the powershell console. 
